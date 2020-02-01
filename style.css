@@ -1,0 +1,96 @@
+@font-face {
+  font-family: avenirMedium;
+  src: url(./fonts/AvenirLTStd-Medium.otf)
+}
+
+
+
+.card-container {
+  width: 355px;
+  max-height: 437px;
+  text-align: center;
+  border: 1px solid blue;
+  font-family: avenirMedium;
+  
+}
+
+.mid-card {
+  position: relative;
+  width: 121px;
+  height: 104px;
+  margin: 0 auto;
+}
+
+.price {
+  position: absolute;
+  top: 30px;
+  left: 90px;
+  background-color: white;
+  box-shadow: 3px 3px 12px -1px rgba(0,0,0,0.11);
+  color: rgb(245, 90, 90);
+  transform: rotatez(325deg);
+  padding: 0.1em 0.2em;
+  border-radius: 5%;
+}
+
+h2 {
+  color: blue;
+}
+
+.sentence1 {
+  margin-top: -15px;
+}
+
+p {
+  font-size: 12px;
+  margin: -15px auto 0;
+  width: 160px;
+  color: grey;
+}
+
+.bottom-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+
+button {
+  color: white;
+  background-color: blue;
+  height: 40px;
+  width: 105px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 12px;
+  
+
+
+}
+
+.left-bottom-card {
+  
+  padding: 0;
+  margin: 0;
+}
+
+.first-row {
+  display: flex;
+  
+
+}
+
+.second-row {
+  display: flex;
+  
+}
+
+.left-bottom-card h3 {
+  padding: 5px 0 0 7px;
+  margin: 0;
+}
+
+.small-images {
+  width: 29px;
+  height: 29px;
+}
